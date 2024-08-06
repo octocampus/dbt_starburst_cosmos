@@ -16,11 +16,6 @@ MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')
 MINIO_SECRET_KEY = os.getenv('MINIO_SECRET_KEY')
 MINIO_BUCKET = os.getenv('MINIO_BUCKET')
 
-STARBURST_HOST = "195.154.74.227"
-STARBURST_PORT = 8443
-STARBURST_USER = "starburst_service"
-STARBURST_CATALOG = "iceberg_minio_2"
-STARBURST_SCHEMA = "bi_modeling_bronze"
 
 # JAR for the Starburst JDBC driver
 jars = [
